@@ -2,3 +2,9 @@
 body {
   background: #eeeeee;
 }
+
+/* line 4, ../_sass/app.sass */
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
