@@ -5,7 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width">
+  <script type="text/javascript">
+  var index = 1,
+      playlist = ['movies/funnle.mov'],
+      video = document.getElementById('awesome_video');
 
+  video.addEventListener('ended', rotate_video, false);
+
+  function rotate_video() {
+    video.setAttribute('src', playlist[index]);
+    video.load();
+    index++;
+    if (index >= playlist.length) { index = 0; }
+  }
+</script>
   <link rel="stylesheet" href="css/app.css">
 
 </head>
