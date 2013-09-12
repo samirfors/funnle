@@ -1,10 +1,9 @@
 /* line 1, ../_sass/app.sass */
 body {
   background: #eeeeee;
-  font-family: "proxima-nova", Arial;
 }
 
-/* line 5, ../_sass/app.sass */
+/* line 4, ../_sass/app.sass */
 .container {
   width: 1140px;
   margin: 0 auto;
