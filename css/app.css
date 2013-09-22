@@ -21,7 +21,7 @@ body {
 }
 
 /* line 14, ../_sass/app.sass */
-.mission-statment {
+.mission-statment h1 {
   text-align: center;
   margin-top: 2em;
   text-transform: uppercase;
