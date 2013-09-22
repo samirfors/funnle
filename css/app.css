@@ -25,15 +25,16 @@ body {
   text-align: center;
   margin-top: 2em;
   text-transform: uppercase;
+  color: white;
 }
 
-/* line 18, ../_sass/app.sass */
+/* line 19, ../_sass/app.sass */
 .container {
   width: 1140px;
   margin: 0 auto;
 }
 
-/* line 22, ../_sass/app.sass */
+/* line 23, ../_sass/app.sass */
 #awesome_video {
   position: absolute;
   z-index: -9999;
