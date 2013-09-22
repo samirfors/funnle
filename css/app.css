@@ -3,13 +3,37 @@ body {
   background: #eeeeee;
 }
 
-/* line 4, ../_sass/app.sass */
+/* line 3, ../_sass/app.sass */
+.header {
+  width: 100%;
+  margin-top: 2em;
+}
+
+/* line 6, ../_sass/app.sass */
+.header .logo {
+  width: 200px;
+  height: 28px;
+  background-size: 200px 28px;
+  overflow: hidden;
+  z-index: 100;
+  background: url("images/logo.png") no-repeat;
+  text-indent: -9999;
+}
+
+/* line 14, ../_sass/app.sass */
+.mission-statment {
+  text-align: center;
+  margin-top: 2em;
+  text-transform: uppercase;
+}
+
+/* line 18, ../_sass/app.sass */
 .container {
   width: 1140px;
   margin: 0 auto;
 }
 
-/* line 8, ../_sass/app.sass */
+/* line 22, ../_sass/app.sass */
 #awesome_video {
   position: absolute;
   z-index: -9999;
