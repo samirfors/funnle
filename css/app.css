@@ -21,20 +21,22 @@ body {
 }
 
 /* line 14, ../_sass/app.sass */
-.mission-statment h1 {
+.mission-statement h1 {
   text-align: center;
   margin-top: 2em;
   text-transform: uppercase;
   color: white;
+  font-size: 4em;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-/* line 19, ../_sass/app.sass */
+/* line 21, ../_sass/app.sass */
 .container {
   width: 1140px;
   margin: 0 auto;
 }
 
-/* line 23, ../_sass/app.sass */
+/* line 25, ../_sass/app.sass */
 #awesome_video {
   position: absolute;
   z-index: -9999;
