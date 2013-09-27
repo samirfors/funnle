@@ -12,15 +12,15 @@ $(document).ready(function(){
 	    //sets the different height for every needed div
 	    $(".video_container").css("height", windowH); 
 	    $(".video_container").css("width", windowW); 
-	    $(".video").css("height", windowH); 
+	    $("header").css("height", windowH); 
 	}
 
 	$(".video_container").each(resize);
-	$(".video").each(resize);
+	$("header").each(resize);
 
 	$(document).resize(function(){
 	    $(".video_container").each(resize);
-	    $(".video").each(resize);
+	    $("header").each(resize);
 	  });
 
 });

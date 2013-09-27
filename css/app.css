@@ -35,31 +35,32 @@ a {
   color: #0cc6e8;
 }
 
-/* line 30, ../_sass/app.sass */
+/* line 31, ../_sass/app.sass */
 .header {
   width: 100%;
   margin-top: 2em;
 }
 
-/* line 34, ../_sass/app.sass */
+/* line 35, ../_sass/app.sass */
 .header .logo {
   width: 200px;
   height: 32px;
   background-size: 200px 28px;
   overflow: hidden;
   z-index: 100;
+  margin-top: 20px;
   background: url("../images/logo_new.png") no-repeat;
   text-indent: -9999px;
 }
 
-/* line 43, ../_sass/app.sass */
+/* line 45, ../_sass/app.sass */
 .mission-statement {
   text-align: center;
   color: whitesmoke;
 }
 
-/* line 48, ../_sass/app.sass */
-.mission-statement h1 {
+/* line 50, ../_sass/app.sass */
+h1 {
   font-size: 4.5em;
   text-transform: uppercase;
   font-weight: 800;
@@ -67,21 +68,36 @@ a {
   margin-bottom: 0.1em;
 }
 
-/* line 55, ../_sass/app.sass */
-.mission-statement h2 {
+/* line 57, ../_sass/app.sass */
+h2 {
   font-size: 1.5em;
   font-weight: 400;
   margin: 0;
 }
 
 /* line 61, ../_sass/app.sass */
+h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* line 66, ../_sass/app.sass */
+.call-out {
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* line 72, ../_sass/app.sass */
 .sign-up-form {
   margin: 0 auto;
   width: 30%;
   margin-top: 5em;
 }
 
-/* line 67, ../_sass/app.sass */
+/* line 77, ../_sass/app.sass */
 .emailfield {
   width: 80%;
   padding: 5% 10% 5% 10%;
@@ -95,13 +111,13 @@ a {
   color: #022329;
 }
 
-/* line 79, ../_sass/app.sass */
+/* line 89, ../_sass/app.sass */
 .emailfield:focus {
   background-color: whitesmoke;
   border-color: #3198d3;
 }
 
-/* line 83, ../_sass/app.sass */
+/* line 93, ../_sass/app.sass */
 .button {
   color: whitesmoke;
   width: 80%;
@@ -113,29 +129,56 @@ a {
   font-size: 0.8em;
 }
 
-/* line 94, ../_sass/app.sass */
+/* line 104, ../_sass/app.sass */
 .button-main {
   background-color: #3198d3;
   margin-top: 1em;
 }
 
-/* line 98, ../_sass/app.sass */
+/* line 108, ../_sass/app.sass */
 .button-main:hover {
   background-color: #298ac1;
 }
 
-/* line 100, ../_sass/app.sass */
+/* line 110, ../_sass/app.sass */
 .button-main:active {
   background-color: #206c97;
 }
 
-/* line 102, ../_sass/app.sass */
+/* line 112, ../_sass/app.sass */
 .button-secondary {
   margin-top: 1em;
 }
 
-/* line 105, ../_sass/app.sass */
+/* line 115, ../_sass/app.sass */
 .container {
   width: 1140px;
   margin: 0 auto;
+}
+
+/* line 119, ../_sass/app.sass */
+.features {
+  color: #022329;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* line 124, ../_sass/app.sass */
+.row {
+  margin-bottom: 400px;
+}
+
+/* line 127, ../_sass/app.sass */
+.area {
+  margin-bottom: 200px;
+}
+
+/* line 130, ../_sass/app.sass */
+.how_img {
+  margin-top: 80px;
+}
+
+/* line 135, ../_sass/app.sass */
+footer {
+  text-align: center;
 }
