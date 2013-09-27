@@ -23,4 +23,12 @@ $(document).ready(function(){
 	    $("header").each(resize);
 	  });
 
+	$("#learnMore_btn").click(function() {
+	    $('html, body').animate({
+	        scrollTop: $("#scrollToLearnMore").offset().top
+	    }, 1000);
+	});
+
+
+
 });
