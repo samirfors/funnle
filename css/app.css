@@ -1,39 +1,47 @@
-/* line 4, ../_sass/app.sass */
+/* line 5, ../_sass/app.sass */
 * {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
 
-/* line 9, ../_sass/app.sass */
+/* line 10, ../_sass/app.sass */
 #awesome_video {
   position: absolute;
   z-index: -9999;
   top: 0;
   left: 0;
   min-width: 100%;
-  min-height: 100%;
 }
 
 /* line 17, ../_sass/app.sass */
+.video_container {
+  position: absolute;
+  z-index: -9999;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+/* line 24, ../_sass/app.sass */
 body {
   background: #eeeeee;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: white;
 }
 
-/* line 21, ../_sass/app.sass */
+/* line 28, ../_sass/app.sass */
 a {
   color: #0cc6e8;
 }
 
-/* line 23, ../_sass/app.sass */
+/* line 30, ../_sass/app.sass */
 .header {
   width: 100%;
   margin-top: 2em;
 }
 
-/* line 27, ../_sass/app.sass */
+/* line 34, ../_sass/app.sass */
 .header .logo {
   width: 200px;
   height: 32px;
@@ -44,13 +52,13 @@ a {
   text-indent: -9999px;
 }
 
-/* line 36, ../_sass/app.sass */
+/* line 43, ../_sass/app.sass */
 .mission-statement {
   text-align: center;
   color: whitesmoke;
 }
 
-/* line 41, ../_sass/app.sass */
+/* line 48, ../_sass/app.sass */
 .mission-statement h1 {
   font-size: 4.5em;
   text-transform: uppercase;
@@ -59,21 +67,21 @@ a {
   margin-bottom: 0.1em;
 }
 
-/* line 48, ../_sass/app.sass */
+/* line 55, ../_sass/app.sass */
 .mission-statement h2 {
   font-size: 1.5em;
   font-weight: 400;
   margin: 0;
 }
 
-/* line 54, ../_sass/app.sass */
+/* line 61, ../_sass/app.sass */
 .sign-up-form {
   margin: 0 auto;
   width: 30%;
   margin-top: 5em;
 }
 
-/* line 60, ../_sass/app.sass */
+/* line 67, ../_sass/app.sass */
 .emailfield {
   width: 80%;
   padding: 5% 10% 5% 10%;
@@ -84,16 +92,16 @@ a {
   box-sizing: content-box;
   font-size: 1em;
   background: none;
-  color: whitesmoke;
+  color: #022329;
 }
 
-/* line 72, ../_sass/app.sass */
+/* line 79, ../_sass/app.sass */
 .emailfield:focus {
   background-color: whitesmoke;
   border-color: #3198d3;
 }
 
-/* line 75, ../_sass/app.sass */
+/* line 83, ../_sass/app.sass */
 .button {
   color: whitesmoke;
   width: 80%;
@@ -105,28 +113,28 @@ a {
   font-size: 0.8em;
 }
 
-/* line 86, ../_sass/app.sass */
+/* line 94, ../_sass/app.sass */
 .button-main {
   background-color: #3198d3;
   margin-top: 1em;
 }
 
-/* line 90, ../_sass/app.sass */
+/* line 98, ../_sass/app.sass */
 .button-main:hover {
   background-color: #298ac1;
 }
 
-/* line 92, ../_sass/app.sass */
+/* line 100, ../_sass/app.sass */
 .button-main:active {
   background-color: #206c97;
 }
 
-/* line 94, ../_sass/app.sass */
+/* line 102, ../_sass/app.sass */
 .button-secondary {
   margin-top: 1em;
 }
 
-/* line 97, ../_sass/app.sass */
+/* line 105, ../_sass/app.sass */
 .container {
   width: 1140px;
   margin: 0 auto;

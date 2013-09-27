@@ -1,18 +1,26 @@
 
+$(document).ready(function(){
+	//set the initial body width
+	var windowH = window.innerHeight; 
+	/*I need to go through all target divs because i don't know 
+	how many divs are here and what are their initial height*/
 
-var index = 1,
-      playlist = ['movies/funnle.m4v'],
-      video = document.getElementById('awesome_video');
+ 	function resize() {
+	    //get the initial height of every div
+	    var windowH = window.innerHeight; 
+	    var windowW = window.innerWidth; 
+	    //sets the different height for every needed div
+	    $(".video_container").css("height", windowH); 
+	    $(".video_container").css("width", windowW); 
+	    $(".video").css("height", windowH); 
+	}
 
-  video.addEventListener('ended', rotate_video, false);
+	$(".video_container").each(resize);
+	$(".video").each(resize);
 
-  function rotate_video() {
-    video.setAttribute('src', playlist[index]);
-    video.load();
-    index++;
-    if (index >= playlist.length) { index = 0; }
-  }
+	$(document).resize(function(){
+	    $(".video_container").each(resize);
+	    $(".video").each(resize);
+	  });
 
-  var h=window.innerHeight;
-var backgroundVideo=document.getElementById("awesome_video");  
-backgroundVideo.style.height=h;
+});
