@@ -42,13 +42,13 @@ a {
 
 /* line 36, ../_sass/app.sass */
 .header .logo {
-  width: 130px;
-  height: 21px;
+  width: 184px;
+  height: 44px;
   position: absolute;
   top: 70px;
   left: 70px;
   margin: 0;
-  background-size: 130px 21px;
+  background-size: 184px 44px;
   overflow: hidden;
   z-index: 100;
   background: url("../images/logo_new.png") no-repeat;
@@ -194,6 +194,11 @@ h3 {
 .how_video {
   margin-top: 80px;
   width: 100%;
+}
+
+/* line 143, ../_sass/app.sass */
+.copy {
+  background: #3198d3;
 }
 
 /* line 145, ../_sass/app.sass */
