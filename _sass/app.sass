@@ -4,6 +4,7 @@ $blue: #3198D3
 $white: #f5f5f5
 $link_blue: #0CC6E8
 $black: #022329
+$green: #31d37d
 * 
   -webkit-transition: all 0.3s
   -moz-transition: all 0.3s
@@ -33,23 +34,23 @@ a
 
 .row
   margin: 0 auto
+
 .white-bg
   background: $white
 
 .header
   width: 100%
-
-.header .logo
-  width: 184px
-  height: 44px
-  margin: 0
-  margin-left: 50px
-  margin-top: 50px
-  background-size: 184px 44px
-  overflow: hidden
-  z-index: 100
-  background: url("../images/logo_new.png") no-repeat
-  text-indent: -9999px
+  .logo
+    width: 184px
+    height: 44px
+    margin: 0
+    margin-left: 50px
+    margin-top: 50px
+    background-size: 184px 44px
+    overflow: hidden
+    z-index: 100
+    background: url("../images/logo_new.png") no-repeat
+    text-indent: -9999px
 
 .mission-statement
   text-align: center
@@ -78,9 +79,10 @@ h3
 
 .sign-up-form
   margin: 0 auto
-  width: 30%
+  width: 25%
   margin-top: 5em
-
+  .label
+    margin-bottom: 5px
 .emailfield
   width: 80%
   padding: 5% 10% 5% 10%
@@ -109,22 +111,21 @@ h3
   font-size: 1em
   font-weight: 600
 
-
 .button-main
   background-color: $blue
   margin-top: 1em
   @include box-shadow (inset 0 1px 1px rgba(255,255,255,0.6))
   @include text-shadow (0 -1px 0 darken($blue, 25%))
   @include border-radius (4px)
-
-
 .button-main:hover
   background-color: darken($blue, 5%)
 .button-main:active
   background-color: darken($blue, 15%)
 .button-secondary
   margin-top: 1em
-
+.button-secondary:hover
+  margin-top: 1em
+  color: $blue
 .container
   width: 100%
   margin: 0 auto
@@ -141,6 +142,8 @@ h3
 
 .how
   padding-top: 30px
+  background: $blue
+  color: $white
 
 .area
   margin-bottom: 100px
@@ -151,7 +154,8 @@ h3
   margin-top: 80px
   width: 50%
 .copy
-  background: $blue
+  background: $green
+  color: $white
   h1
     margin-top: 0
 .video-note
@@ -162,6 +166,28 @@ h3
     vertical-align: middle
     @include border-radius(100%)
     margin-left: 1em
+  a
+    text-decoration: none
+    border-bottom: 1px solid $link_blue
+  a:hover
+    border-bottom: 1px solid darken($link_blue, 10%)
+    color: darken($link_blue, 10%)
+    padding-bottom: 3px
 
 footer
   text-align: center
+  background: $black
+  background-image: url("../images/footer_bg.jpg") 
+  background-repeat: none
+  background-size: 120% auto
+  background-position: 50% 50%
+  img:hover
+    border: 4px solid $blue
+  img
+    border: 4px solid rgba(255,255,255,0)
+    width: 100px
+    @include border-radius(100%)
+    margin-left: 1em
+
+
+
