@@ -25,29 +25,39 @@
 
 /* line 26, ../_sass/app.sass */
 body {
-  background: #eeeeee;
+  background: #022329;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: white;
+  margin: 0;
 }
 
-/* line 30, ../_sass/app.sass */
+/* line 31, ../_sass/app.sass */
 a {
   color: #0cc6e8;
 }
 
-/* line 33, ../_sass/app.sass */
+/* line 34, ../_sass/app.sass */
+.row {
+  margin: 0 auto;
+}
+
+/* line 36, ../_sass/app.sass */
+.white-bg {
+  background: whitesmoke;
+}
+
+/* line 39, ../_sass/app.sass */
 .header {
   width: 100%;
 }
 
-/* line 36, ../_sass/app.sass */
+/* line 42, ../_sass/app.sass */
 .header .logo {
   width: 184px;
   height: 44px;
-  position: absolute;
-  top: 70px;
-  left: 70px;
   margin: 0;
+  margin-left: 50px;
+  margin-top: 50px;
   background-size: 184px 44px;
   overflow: hidden;
   z-index: 100;
@@ -55,13 +65,13 @@ a {
   text-indent: -9999px;
 }
 
-/* line 49, ../_sass/app.sass */
+/* line 54, ../_sass/app.sass */
 .mission-statement {
   text-align: center;
   color: whitesmoke;
 }
 
-/* line 54, ../_sass/app.sass */
+/* line 58, ../_sass/app.sass */
 h1 {
   font-size: 4.5em;
   text-transform: uppercase;
@@ -70,21 +80,21 @@ h1 {
   margin-bottom: 0.1em;
 }
 
-/* line 61, ../_sass/app.sass */
+/* line 65, ../_sass/app.sass */
 h2 {
   font-size: 1.5em;
   font-weight: 400;
   margin: 0;
 }
 
-/* line 65, ../_sass/app.sass */
+/* line 69, ../_sass/app.sass */
 h3 {
   font-size: 1.5em;
   font-weight: 400;
   margin: 0;
 }
 
-/* line 69, ../_sass/app.sass */
+/* line 73, ../_sass/app.sass */
 .call-out {
   font-size: 3em;
   text-transform: uppercase;
@@ -92,14 +102,14 @@ h3 {
   font-style: italic;
 }
 
-/* line 75, ../_sass/app.sass */
+/* line 79, ../_sass/app.sass */
 .sign-up-form {
   margin: 0 auto;
   width: 30%;
   margin-top: 5em;
 }
 
-/* line 80, ../_sass/app.sass */
+/* line 84, ../_sass/app.sass */
 .emailfield {
   width: 80%;
   padding: 5% 10% 5% 10%;
@@ -113,13 +123,13 @@ h3 {
   color: #022329;
 }
 
-/* line 92, ../_sass/app.sass */
+/* line 96, ../_sass/app.sass */
 .emailfield:focus {
   background-color: whitesmoke;
   border-color: #3198d3;
 }
 
-/* line 96, ../_sass/app.sass */
+/* line 100, ../_sass/app.sass */
 .button {
   color: whitesmoke;
   width: 80%;
@@ -133,7 +143,7 @@ h3 {
   font-weight: 600;
 }
 
-/* line 109, ../_sass/app.sass */
+/* line 113, ../_sass/app.sass */
 .button-main {
   background-color: #3198d3;
   margin-top: 1em;
@@ -148,65 +158,80 @@ h3 {
   border-radius: 4px;
 }
 
-/* line 117, ../_sass/app.sass */
+/* line 121, ../_sass/app.sass */
 .button-main:hover {
   background-color: #298ac1;
 }
 
-/* line 119, ../_sass/app.sass */
+/* line 123, ../_sass/app.sass */
 .button-main:active {
   background-color: #206c97;
 }
 
-/* line 121, ../_sass/app.sass */
+/* line 125, ../_sass/app.sass */
 .button-secondary {
   margin-top: 1em;
 }
 
-/* line 124, ../_sass/app.sass */
+/* line 128, ../_sass/app.sass */
 .container {
-  width: 1140px;
+  width: 100%;
   margin: 0 auto;
 }
 
-/* line 128, ../_sass/app.sass */
+/* line 131, ../_sass/app.sass */
+.row {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+/* line 135, ../_sass/app.sass */
+.video_header {
+  margin-bottom: 0px;
+}
+
+/* line 138, ../_sass/app.sass */
 .features {
   color: #022329;
   text-align: center;
 }
 
-/* line 132, ../_sass/app.sass */
-.row {
-  margin-bottom: 400px;
+/* line 142, ../_sass/app.sass */
+.how {
+  padding-top: 30px;
 }
 
-/* line 135, ../_sass/app.sass */
+/* line 145, ../_sass/app.sass */
 .area {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
-/* line 138, ../_sass/app.sass */
+/* line 148, ../_sass/app.sass */
 .how_img {
   margin-top: 80px;
 }
 
-/* line 140, ../_sass/app.sass */
+/* line 150, ../_sass/app.sass */
 .how_video {
   margin-top: 80px;
-  width: 100%;
+  width: 50%;
 }
 
-/* line 143, ../_sass/app.sass */
+/* line 153, ../_sass/app.sass */
 .copy {
   background: #3198d3;
 }
+/* line 155, ../_sass/app.sass */
+.copy h1 {
+  margin-top: 0;
+}
 
-/* line 145, ../_sass/app.sass */
+/* line 157, ../_sass/app.sass */
 .video-note {
   line-height: 50px;
   vertical-align: middle;
 }
-/* line 148, ../_sass/app.sass */
+/* line 160, ../_sass/app.sass */
 .video-note img {
   height: 50px;
   vertical-align: middle;
@@ -218,7 +243,7 @@ h3 {
   margin-left: 1em;
 }
 
-/* line 154, ../_sass/app.sass */
+/* line 166, ../_sass/app.sass */
 footer {
   text-align: center;
 }

@@ -9,18 +9,19 @@ $(document).ready(function(){
 	    //get the initial height of every div
 	    var windowH = window.innerHeight; 
 	    var windowW = window.innerWidth; 
+	    var videoHeaderH = window.innerHeight - 50;
 	    //sets the different height for every needed div
 	    $(".video_container").css("height", windowH); 
 	    $(".video_container").css("width", windowW); 
-	    $("header").css("height", windowH); 
+	    $(".video_header").css("height", videoHeaderH); 
 	}
 
 	$(".video_container").each(resize);
-	$("header").each(resize);
+	$(".video_header").each(resize);
 
 	$(document).resize(function(){
 	    $(".video_container").each(resize);
-	    $("header").each(resize);
+	    $(".video_header").each(resize);
 	  });
 
 	$("#learnMore_btn").click(function() {
