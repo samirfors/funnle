@@ -363,25 +363,26 @@ footer img {
   /* line 239, ../_sass/app.sass */
   .sign-up-form {
     width: 90%;
+    margin-top: 1em;
   }
 
-  /* line 241, ../_sass/app.sass */
+  /* line 242, ../_sass/app.sass */
   .area {
     margin-bottom: 10px;
   }
 
-  /* line 243, ../_sass/app.sass */
+  /* line 244, ../_sass/app.sass */
   .how_video {
     display: none;
   }
 
-  /* line 245, ../_sass/app.sass */
+  /* line 246, ../_sass/app.sass */
   iframe {
     width: 90%;
     height: 100%;
   }
 
-  /* line 248, ../_sass/app.sass */
+  /* line 249, ../_sass/app.sass */
   footer {
     background-image: none;
   }
