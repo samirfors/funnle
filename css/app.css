@@ -27,30 +27,31 @@
 body {
   background: #022329;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
   color: white;
   margin: 0;
 }
 
-/* line 32, ../_sass/app.sass */
+/* line 33, ../_sass/app.sass */
 a {
   color: #0cc6e8;
 }
 
-/* line 35, ../_sass/app.sass */
+/* line 36, ../_sass/app.sass */
 .row {
   margin: 0 auto;
 }
 
-/* line 38, ../_sass/app.sass */
+/* line 39, ../_sass/app.sass */
 .white-bg {
   background: whitesmoke;
 }
 
-/* line 41, ../_sass/app.sass */
+/* line 42, ../_sass/app.sass */
 .header {
   width: 100%;
 }
-/* line 43, ../_sass/app.sass */
+/* line 44, ../_sass/app.sass */
 .header .logo {
   width: 184px;
   height: 44px;
@@ -64,13 +65,13 @@ a {
   text-indent: -9999px;
 }
 
-/* line 55, ../_sass/app.sass */
+/* line 56, ../_sass/app.sass */
 .mission-statement {
   text-align: center;
   color: whitesmoke;
 }
 
-/* line 59, ../_sass/app.sass */
+/* line 60, ../_sass/app.sass */
 h1 {
   font-size: 4.5em;
   text-transform: uppercase;
@@ -79,21 +80,21 @@ h1 {
   margin-bottom: 0.1em;
 }
 
-/* line 66, ../_sass/app.sass */
+/* line 67, ../_sass/app.sass */
 h2 {
   font-size: 1.5em;
   font-weight: 400;
   margin: 0;
 }
 
-/* line 70, ../_sass/app.sass */
+/* line 71, ../_sass/app.sass */
 h3 {
   font-size: 1.5em;
   font-weight: 400;
   margin: 0;
 }
 
-/* line 74, ../_sass/app.sass */
+/* line 75, ../_sass/app.sass */
 .call-out {
   font-size: 3em;
   text-transform: uppercase;
@@ -101,18 +102,18 @@ h3 {
   font-style: italic;
 }
 
-/* line 80, ../_sass/app.sass */
+/* line 81, ../_sass/app.sass */
 .sign-up-form {
   margin: 0 auto;
-  width: 25%;
+  width: 350px;
   margin-top: 5em;
 }
-/* line 84, ../_sass/app.sass */
+/* line 85, ../_sass/app.sass */
 .sign-up-form .label {
   margin-bottom: 5px;
 }
 
-/* line 86, ../_sass/app.sass */
+/* line 87, ../_sass/app.sass */
 .emailfield {
   width: 80%;
   padding: 5% 10% 5% 10%;
@@ -126,13 +127,13 @@ h3 {
   color: #022329;
 }
 
-/* line 98, ../_sass/app.sass */
+/* line 99, ../_sass/app.sass */
 .emailfield:focus {
   background-color: whitesmoke;
   border-color: #3198d3;
 }
 
-/* line 102, ../_sass/app.sass */
+/* line 103, ../_sass/app.sass */
 .button {
   color: whitesmoke;
   width: 80%;
@@ -146,7 +147,7 @@ h3 {
   font-weight: 600;
 }
 
-/* line 114, ../_sass/app.sass */
+/* line 115, ../_sass/app.sass */
 .button-main {
   color: whitesmoke;
   width: 100%;
@@ -172,90 +173,90 @@ h3 {
   border-radius: 4px;
 }
 
-/* line 132, ../_sass/app.sass */
+/* line 133, ../_sass/app.sass */
 .button-main:hover {
   background-color: #298ac1;
   text-shadow: 0 -1px 0 #206c97;
 }
 
-/* line 135, ../_sass/app.sass */
+/* line 136, ../_sass/app.sass */
 .button-main:active {
   background-color: #206c97;
 }
 
-/* line 137, ../_sass/app.sass */
+/* line 138, ../_sass/app.sass */
 .button-secondary {
   margin-top: 1em;
 }
 
-/* line 139, ../_sass/app.sass */
+/* line 140, ../_sass/app.sass */
 .button-secondary:hover {
   margin-top: 1em;
   color: #3198d3;
 }
 
-/* line 142, ../_sass/app.sass */
+/* line 143, ../_sass/app.sass */
 .container {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 145, ../_sass/app.sass */
+/* line 146, ../_sass/app.sass */
 .row {
   padding-bottom: 100px;
   padding-top: 100px;
 }
 
-/* line 149, ../_sass/app.sass */
+/* line 150, ../_sass/app.sass */
 .video_header {
   margin-bottom: 0px;
 }
 
-/* line 152, ../_sass/app.sass */
+/* line 153, ../_sass/app.sass */
 .features {
   color: #022329;
   text-align: center;
 }
 
-/* line 156, ../_sass/app.sass */
+/* line 157, ../_sass/app.sass */
 .how {
   padding-top: 30px;
   background: #3198d3;
   color: whitesmoke;
 }
 
-/* line 161, ../_sass/app.sass */
+/* line 162, ../_sass/app.sass */
 .area {
   margin-bottom: 100px;
 }
 
-/* line 164, ../_sass/app.sass */
+/* line 165, ../_sass/app.sass */
 .how_img {
   margin-top: 80px;
 }
 
-/* line 166, ../_sass/app.sass */
+/* line 167, ../_sass/app.sass */
 .how_video {
   margin-top: 80px;
   width: 50%;
 }
 
-/* line 169, ../_sass/app.sass */
+/* line 170, ../_sass/app.sass */
 .copy {
   background: #31d37d;
   color: whitesmoke;
 }
-/* line 172, ../_sass/app.sass */
+/* line 173, ../_sass/app.sass */
 .copy h1 {
   margin-top: 0;
 }
 
-/* line 174, ../_sass/app.sass */
+/* line 175, ../_sass/app.sass */
 .video-note {
   line-height: 50px;
   vertical-align: middle;
 }
-/* line 177, ../_sass/app.sass */
+/* line 178, ../_sass/app.sass */
 .video-note img {
   height: 50px;
   vertical-align: middle;
@@ -266,19 +267,19 @@ h3 {
   border-radius: 100%;
   margin-left: 1em;
 }
-/* line 182, ../_sass/app.sass */
+/* line 183, ../_sass/app.sass */
 .video-note a {
   text-decoration: none;
   border-bottom: 1px solid #0cc6e8;
 }
-/* line 185, ../_sass/app.sass */
+/* line 186, ../_sass/app.sass */
 .video-note a:hover {
   border-bottom: 1px solid #099db8;
   color: #099db8;
   padding-bottom: 3px;
 }
 
-/* line 190, ../_sass/app.sass */
+/* line 191, ../_sass/app.sass */
 footer {
   text-align: center;
   background: #022329;
@@ -288,11 +289,11 @@ footer {
   background-position: 50% 50%;
   color: whitesmoke;
 }
-/* line 198, ../_sass/app.sass */
+/* line 199, ../_sass/app.sass */
 footer img:hover {
   border: 4px solid #3198d3;
 }
-/* line 200, ../_sass/app.sass */
+/* line 201, ../_sass/app.sass */
 footer img {
   border: 4px solid rgba(255, 255, 255, 0);
   width: 100px;
@@ -302,4 +303,71 @@ footer img {
   -o-border-radius: 100%;
   border-radius: 100%;
   margin-left: 1em;
+}
+
+@media screen and (max-width: 520px) {
+  /* line 210, ../_sass/app.sass */
+  body {
+    font-size: 12px;
+  }
+
+  /* line 212, ../_sass/app.sass */
+  h1 {
+    font-size: 2.5em;
+  }
+
+  /* line 214, ../_sass/app.sass */
+  h2 {
+    font-size: 1.5em;
+  }
+
+  /* line 216, ../_sass/app.sass */
+  h3 {
+    font-size: 1.5em;
+  }
+
+  /* line 218, ../_sass/app.sass */
+  .video_header {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  /* line 221, ../_sass/app.sass */
+  #awesome_video {
+    display: none;
+  }
+
+  /* line 223, ../_sass/app.sass */
+  .row {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  /* line 228, ../_sass/app.sass */
+  .sign-up-form {
+    width: 90%;
+  }
+
+  /* line 230, ../_sass/app.sass */
+  .area {
+    margin-bottom: 10px;
+  }
+
+  /* line 232, ../_sass/app.sass */
+  .how_video {
+    display: none;
+  }
+
+  /* line 234, ../_sass/app.sass */
+  iframe {
+    width: 90%;
+    height: 100%;
+  }
+
+  /* line 237, ../_sass/app.sass */
+  footer {
+    background-image: none;
+  }
 }

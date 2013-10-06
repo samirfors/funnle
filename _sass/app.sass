@@ -27,6 +27,7 @@ $green: #31d37d
 body
   background: $black
   font-family: "Open Sans", Helvetica, Arial, sans-serif
+  font-size: 16px
   color: #fff
   margin: 0
 a
@@ -79,7 +80,7 @@ h3
 
 .sign-up-form
   margin: 0 auto
-  width: 25%
+  width: 350px
   margin-top: 5em
   .label
     margin-bottom: 5px
@@ -202,6 +203,40 @@ footer
     width: 100px
     @include border-radius(100%)
     margin-left: 1em
+
+$break-small: 520px
+
+@media screen and (max-width: $break-small)
+  body
+    font-size: 12px
+  h1
+    font-size: 2.5em
+  h2
+    font-size: 1.5em
+  h3
+    font-size: 1.5em
+  .video_header
+    padding-left: 5%
+    padding-right: 5%
+  #awesome_video
+    display: none
+  .row
+    padding-left: 5%
+    padding-right: 5%
+    padding-bottom: 20px
+    padding-top: 20px
+  .sign-up-form
+    width: 90%
+  .area
+    margin-bottom: 10px
+  .how_video
+    display: none
+  iframe
+    width: 90%
+    height: 100%
+  footer
+    background-image: none  
+
 
 
 
