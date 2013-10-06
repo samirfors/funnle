@@ -332,12 +332,27 @@ footer img {
     padding-right: 5%;
   }
 
-  /* line 221, ../_sass/app.sass */
+  /* line 222, ../_sass/app.sass */
+  .header .logo {
+    margin-top: 10px;
+    width: 92px;
+    height: 22px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-size: 92px 22px;
+  }
+
+  /* line 230, ../_sass/app.sass */
+  .mission-statement h1 {
+    margin-top: 0.5em;
+  }
+
+  /* line 232, ../_sass/app.sass */
   #awesome_video {
     display: none;
   }
 
-  /* line 223, ../_sass/app.sass */
+  /* line 234, ../_sass/app.sass */
   .row {
     padding-left: 5%;
     padding-right: 5%;
@@ -345,28 +360,28 @@ footer img {
     padding-top: 20px;
   }
 
-  /* line 228, ../_sass/app.sass */
+  /* line 239, ../_sass/app.sass */
   .sign-up-form {
     width: 90%;
   }
 
-  /* line 230, ../_sass/app.sass */
+  /* line 241, ../_sass/app.sass */
   .area {
     margin-bottom: 10px;
   }
 
-  /* line 232, ../_sass/app.sass */
+  /* line 243, ../_sass/app.sass */
   .how_video {
     display: none;
   }
 
-  /* line 234, ../_sass/app.sass */
+  /* line 245, ../_sass/app.sass */
   iframe {
     width: 90%;
     height: 100%;
   }
 
-  /* line 237, ../_sass/app.sass */
+  /* line 248, ../_sass/app.sass */
   footer {
     background-image: none;
   }
