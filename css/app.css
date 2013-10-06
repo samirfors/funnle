@@ -286,12 +286,13 @@ footer {
   background-repeat: none;
   background-size: 120% auto;
   background-position: 50% 50%;
+  color: whitesmoke;
 }
-/* line 197, ../_sass/app.sass */
+/* line 198, ../_sass/app.sass */
 footer img:hover {
   border: 4px solid #3198d3;
 }
-/* line 199, ../_sass/app.sass */
+/* line 200, ../_sass/app.sass */
 footer img {
   border: 4px solid rgba(255, 255, 255, 0);
   width: 100px;
