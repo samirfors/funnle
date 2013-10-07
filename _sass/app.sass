@@ -9,6 +9,7 @@ $green: #31d37d
   -webkit-transition: all 0.3s
   -moz-transition: all 0.3s
   transition: all 0.3s
+  -webkit-appearance: none
 
 #awesome_video
   position: absolute
@@ -56,7 +57,9 @@ a
 .mission-statement
   text-align: center
   color: $white
-  
+  width: 80%
+  padding-left: 10%
+  padding-right: 10%
 h1
   font-size: 4.5em
   text-transform: uppercase
@@ -204,9 +207,9 @@ footer
     @include border-radius(100%)
     margin-left: 1em
 
-$break-small: 520px
+$break-handheld: 1024px
 
-@media screen and (max-width: $break-small)
+@media screen and (max-device-width: $break-handheld)
   body
     font-size: 12px
   h1
@@ -238,7 +241,7 @@ $break-small: 520px
     padding-top: 20px
   .sign-up-form
     width: 90%
-    margin-top: 1em
+    margin-top: 0em
   .area
     margin-bottom: 10px
   .how_video
