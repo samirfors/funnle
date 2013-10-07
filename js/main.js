@@ -7,7 +7,7 @@ $(document).ready(function(){
 	    //get the initial height of every div
 	    var windowH = window.innerHeight; 
 	    var windowW = window.innerWidth; 
-	    var videoHeaderH = window.outerHeight - 50;
+	    var videoHeaderH = screen.height - 50;
 	    //sets the different height for every needed div
 	    $(".video_container").css("height", windowH); 
 	    $(".video_container").css("width", windowW);
