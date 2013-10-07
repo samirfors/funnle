@@ -5,7 +5,7 @@ $(document).ready(function(){
 	how many divs are here and what are their initial height*/
  	function resize() {
 	    //get the initial height of every div
-	    var windowH = window.innerHeight; 
+	    var windowH = screen.height - 50; 
 	    var windowW = window.innerWidth; 
 	    var videoHeaderH = screen.height - 50;
 	    //sets the different height for every needed div
