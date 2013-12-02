@@ -9,6 +9,11 @@ gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
+# rails 4 doesn't support compass yet, so this is a hack
+gem 'compass-rails', github: "Compass/compass-rails", branch: "rails4-hack"
+group :assets do
+end
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
