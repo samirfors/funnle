@@ -7,4 +7,11 @@ class FollowingsController < ApplicationController
     @following = @user.followings.to_a
   end
 
+  def create
+    user = User.where(email: params[:email]).first
+    followee = User.where(email: params[:followee]).first
+    @user.followed_users << followee
+    @user.save
+  end
+
 end
