@@ -1,0 +1,61 @@
+=selection($bgcolor, $color)
+  &::selection
+    background: $bgcolor
+    color: $color
+
+*
+  +selection($campanja-base, #fff)
+  box-sizing: border-box
+
+body
+  font-family: $base-font-family
+  font-weight: $base-font-weight
+  color: $base-font-color
+  font-size: 16px
+  line-height: 1.5
+  overflow: auto
+  background: scale-color($warning, $lightness: 97%)
+
+h1, h2, h3, h4, h5, h6
+  font-family: $header-font-family
+  font-weight: $base-font-weight
+
+h1
+  font-size: $h1-font-size
+  line-height: $h1-font-size
+
+h2
+  font-size: $h2-font-size
+  line-height: $h2-font-size
+
+h3
+  font-size: $h3-font-size
+  line-height: $h3-font-size
+
+h4
+  font-size: $h4-font-size
+  line-height: $h4-font-size
+
+h5
+  font-size: $h5-font-size
+  line-height: $h5-font-size
+
+h6
+  font-size: $h6-font-size
+  line-height: $h6-font-size
+
+a
+  color: $campanja-base
+  text-decoration: none
+  cursor: pointer
+  &:hover
+    color: scale-color($campanja-base, $lightness: -10%)
+
+table
+  width: 100%
+  td, th
+    font-family: $base-font-family
+    font-weight: $base-font-weight
+    padding: 0 5px
+  th
+    font-weight: 600
