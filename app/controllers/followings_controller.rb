@@ -10,8 +10,8 @@ class FollowingsController < ApplicationController
   def create
     user = User.where(email: params[:email]).first
     followee = User.where(email: params[:followee]).first
-    @user.followed_users << followee
-    @user.save
+    user.followed_users << followee
+    user.save!
   end
 
 end
