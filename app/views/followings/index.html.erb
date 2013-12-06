@@ -3,13 +3,20 @@
 </div>
 
 <div class="row">
-
+  <h3>You are following <%= @following.length %></h3> funnlers!
   <ul class="people-list">
-    <li>Adam Gardefjord</li>
-    <li>Isak Bakken</li>
-    <li>Christoffer Ekeroth</li>
-    <li><%= @user.to_s %></li>
+    <% @following.each do |user| %>
+    <li><%= user.to_s %></li>
+    <% end %>
   </ul>
-
 </div>
 
+<div class="row">
+  <h3>More funnlers to follow:</h3>
+  <% @users.each do |user| %>
+    <div>
+      <%= user.to_s %>
+      <button onclick="alert('nope')"> Follow</button>
+    </div>
+  <% end %>
+</div>

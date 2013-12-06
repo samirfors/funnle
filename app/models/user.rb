@@ -8,6 +8,6 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   def to_s
-    "Samir"
+    "Samir Fors <#{email}>"
   end
 end
