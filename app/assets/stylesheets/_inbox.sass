@@ -10,10 +10,27 @@
 .page-menu__logo
   display: flex
   align-items: center
-  .logo-text
-    margin-left: 8px
-    font-size: 32px
-    font-weight: 900
+
+.logo-text
+  margin-left: 8px
+  font-size: 32px
+  font-weight: 900
+
+.menu-item__anchor
+  display: flex
+  width: 100%
+  padding: 1em
+  background: #444
+  color: #fff
+  &:hover
+    background: scale-color(#444, $lightness: 5%)
+    color: #fff
+
+.menu-item__icon
+  width: 24px
+  height: 24px
+  background: #fff
+  margin-right: 8px
 
 .page-content
   flex: 1
