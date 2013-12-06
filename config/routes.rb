@@ -1,4 +1,7 @@
 Funnle::Application.routes.draw do
+  resources :followings
+
+  get "followings/index"
   devise_for :users
   get "user/register"
   get "user/login"
@@ -7,7 +10,7 @@ Funnle::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root to: 'user#register'
+  root to: 'followings#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
