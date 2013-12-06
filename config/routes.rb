@@ -1,4 +1,6 @@
 Funnle::Application.routes.draw do
+  resources :picks
+
   resources :followings
 
   get "followings/index"

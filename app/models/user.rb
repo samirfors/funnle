@@ -1,6 +1,7 @@
 class User < ActiveRecord::Base
   has_many :followings, foreign_key: "follower_id", dependent: :destroy
   has_many :followed_users, through: :followings, source: :followed
+  has_many :picks
 
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
