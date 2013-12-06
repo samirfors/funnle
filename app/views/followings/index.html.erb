@@ -1,7 +1,15 @@
-<h1>Hello.</h1>
+<div class="row">
+  <h1>Hello.</h1>
+</div>
 
-<p>Funnle is here to rock your worlds.</p>
+<div class="row">
 
-<p>
-	<%= @user.to_s %>
-</p>
+  <ul class="people-list">
+    <li>Adam Gardefjord</li>
+    <li>Isak Bakken</li>
+    <li>Christoffer Ekeroth</li>
+    <li><%= @user.to_s %></li>
+  </ul>
+
+</div>
+

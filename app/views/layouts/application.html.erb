@@ -8,10 +8,26 @@
 </head>
 <body>
 
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
+  <div class="page-wrapper">
 
-  <%= yield %>
+    <div class="page-menu">
+      <div class="row">
+        <ul>
+          <li>Pick yo' shit</li>
+          <li>Find somebody to follow</li>
+          <li>About funnle</li>
+          <li>Log out</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="page-content">
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+      <%= yield %>
+    <div>
+
+  </div>
 
 </body>
 </html>
