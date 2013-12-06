@@ -3,20 +3,30 @@
 </div>
 
 <div class="row">
-  <h3>You are following <%= @following.length %></h3> funnlers!
-  <ul class="people-list">
+  <h3>You are following <%= @following.length %> funnlers!</h3>
+  <div class="people-list">
     <% @following.each do |user| %>
-    <li><%= user.to_s %></li>
+    <div class="people-list__person">
+      <div class="person__info">
+        <p><%= user.to_s %></p>
+        <p class="person__last-share">Last pick 2 days ago</p>
+      </div>
+    </div>
     <% end %>
-  </ul>
+  </div>
 </div>
 
 <div class="row">
   <h3>More funnlers to follow:</h3>
-  <% @users.each do |user| %>
-    <div>
-      <%= user.to_s %>
-      <button onclick="alert('nope')"> Follow</button>
-    </div>
-  <% end %>
+  <div class="people-list">
+    <% @users.each do |user| %>
+      <div class="people-list__person">
+        <div class="person__info">
+          <p><%= user.to_s %></p>
+          <p class="person__last-share">Last pick 2 days ago</p>
+        </div>
+        <button onclick="alert('nope')" class="button--follow">Follow</button>
+      </div>
+    <% end %>
+  </div>
 </div>
