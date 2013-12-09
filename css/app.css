@@ -443,12 +443,19 @@ footer img {
   }
 
   /* line 290, ../_sass/app.sass */
+  .page {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  /* line 294, ../_sass/app.sass */
   iframe {
     width: 90%;
     height: 100%;
   }
 
-  /* line 293, ../_sass/app.sass */
+  /* line 297, ../_sass/app.sass */
   footer {
     background-image: none;
   }
