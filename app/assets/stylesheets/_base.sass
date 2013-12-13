@@ -9,6 +9,9 @@
 
 html, body
   height: 100%
+  min-height: 100%
+  min-width: 100%
+  display: flex
 
 body
   font-family: $base-font-family
@@ -16,7 +19,7 @@ body
   color: $base-font-color
   font-size: 16px
   line-height: 1.5
-  overflow: auto
+  overflow: hidden
   background: scale-color($warning, $lightness: 97%)
 
 h1, h2, h3, h4, h5, h6
