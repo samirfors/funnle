@@ -45,3 +45,28 @@
 
 .person__last-share
   font-size: 10px
+
+
+=button($bg-color,$fg-color)
+  outline: none
+  color: $fg-color
+  text-align: center
+  padding: 0px 15px
+  text-transform: uppercase
+  background-color: $bg-color
+  border: 1px solid scale-color($bg-color, $lightness: -10%)
+  +background-image (linear-gradient($bg-color, scale-color($bg-color, $lightness: -10%)))
+  +border-radius (2px)
+  +text-shadow (scale-color($bg-color, $lightness: -20%) 0px 1px 1px)
+  &:hover
+    border: 1px solid darken($bg-color, 10%)
+    +background-image (linear-gradient($bg-color, scale-color($bg-color, $lightness: -15%)))
+    +text-shadow (scale-color($bg-color, $lightness: -25%) 0px 1px 1px)
+  &:active
+    +border-radius (1px)
+
+.button--follow
+  +button($blue, $white)
+  
+  
+
