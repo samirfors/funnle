@@ -4,14 +4,17 @@ class FollowingsController < ApplicationController
     email = params[:email]
     @user = User.where(email: email).first || User.new
     @users = User.all
-    @following = @user.followings
+    @following = @user.followed_users
   end
 
   def create
-    user = User.where(email: params[:email]).first
-    followee = User.where(email: params[:followee]).first
-    user.followed_users << followee
+    email = params[:form][:email]
+    followed = params[:form][:followed]
+    user = User.where(email: email).first
+    followed = User.where(email: followed).first
+    user.followed_users << followed
     user.save!
+    redirect_to "/?email=#{email}"
   end
 
 end

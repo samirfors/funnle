@@ -16,6 +16,7 @@
   </div>
 </div>
 
+<!-- FIXME: Replace Rails magic with Backbone? -->
 <div class="row">
   <h3>Such Funnlers:</h3>
   <div class="people-list">
@@ -25,7 +26,10 @@
           <p><%= user.to_s %></p>
           <p class="person__last-share">Last pick 2 days ago</p>
         </div>
-        <button onclick="alert('nope')" class="button--follow">Follow</button>
+        <%= button_to "Follow",
+          { action: "create",
+            form: { followed: user.email, email: @user.email } },
+          form_class: "button--follow" %>
       </div>
     <% end %>
   </div>
